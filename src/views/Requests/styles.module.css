@@ -1,0 +1,11 @@
+.float {
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+
+@media (max-width: 820px){
+    .colMobile {
+        width: 100% !important;
+    }
+}

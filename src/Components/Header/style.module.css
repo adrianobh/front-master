@@ -1,0 +1,9 @@
+.colButton {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.fistRow {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,55 @@
+.logo {
+    width: 71px;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #008000;
+    border-color: #008000;
+}
+
+.button:hover{
+    background-color: #20b120;
+    border-color: #20b120;
+}
+.alignRight {
+    display: flex;
+    justify-content: end;
+}
+.cardFooter {
+    display: flex;
+}
+
+.positionButton {
+    position: absolute;
+    right: 16px
+}
+
+.card {
+    -webkit-box-shadow: 5px 5px 5px rgb(0 0 0 / 35%); 
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 35%);
+    border-radius: 15px;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
+.textError {
+    color: red;
+    font-size: 13px;
+}
+
+.cadastro{
+    text-decoration: none !important;
+}
+.cadastro:hover{
+    color:#20b120;
+    text-decoration: underline;
+    cursor: pointer;
+}
